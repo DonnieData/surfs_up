@@ -36,14 +36,33 @@ def welcome():
     /api/v1.0/tobs
     /api/v1.0/temp/start/end
     ''')
+# precipiation route    
 @app.route("/api/v1.0/precipitation")
 def precipitation():
     #data filter
     prev_year = dt.date(2017, 8, 23) - dt.timedelta(days=365)
     # build query
     precipitation = session.query(Measurement.date, Measurement.prcp).\
-      filter(Measurement.date >= prev_year).all()
+        filter(Measurement.date >= prev_year).all()
     return jsonify(precipitation)
 
+# station route     
+@app.route("/api/v1.0/stations")
+def stations():
+    results = session.query(Station.station).all()
+    # using np.ravel() to transform results into 1D array
+    stations = list(np.ravel(results))
+    # assigning the string "station" to be equal to the station results
+    return jsonify(stations=stations)
+
+#temperature observation route
+@app.route("/api/v1.0/tobs")
+def temp_monthly():
+    prev_year = dt.date(2017, 8, 23) - dt.timedelta(days=365)
+    results = session.query(Measurement.tobs).\
+        filter(Measurement.station == 'USC00519281').\
+        filter(Measurement.date >= prev_year).all()
+    temps = list(np.ravel(results))
+    return jsonify(temps=temps)
 
 
