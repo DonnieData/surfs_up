@@ -65,4 +65,24 @@ def temp_monthly():
     temps = list(np.ravel(results))
     return jsonify(temps=temps)
 
+#minimum, maximumand average temperature route
+#asterisk is used to indicate there will be multiple results for query 
+@app.route("/api/v1.0/temp/<start>")
+@app.route("/api/v1.0/temp/<start>/<end>")
+#start and end date added via url in "/0101-01-01/0101-01-01" format
+def stats(start=None, end=None):
+    sel = [func.min(Measurement.tobs), func.avg(Measurement.tobs), func.max(Measurement.tobs)]
 
+    if not end:
+        results = session.query(*sel).\
+            filter(Measurement.date >= start).\
+            filter(Measurement.date <= end).all()
+        temps = list(np.ravel(results))
+        return jsonify(temps)
+
+    results = session.query(*sel).\
+        filter(Measurement.date >= start).\
+        filter(Measurement.date <= end).all()
+    temps = list(np.ravel(results))
+    return jsonify(temps=temps)
+    
