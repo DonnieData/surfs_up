@@ -12,7 +12,7 @@ This data ha been collected by a Weather Observing System and stored in a flat d
 
 To ensure business is sustainable, year-round weather trends needs to be analyzed. 
 
-In order to gain an understanding of hawaiis weather the stakeholder has expressed explicit interest in weather statistics for the months of June and December. 
+In order to gain an understanding of hawaiis weather the stakeholder has expressed explicit interest in weather statistics for the months of June and December throughout recent years. 
 
 ## Results 
 To access the observation data and analyze it, I have utilized SQLaclhemy ORM, which allows me to query the data by passing python objects as queries. 
@@ -28,9 +28,12 @@ The data is then transformed within a python environment and analyzed resulting 
 Based on the statisical overview of the data we see that: 
 - There is a higher max temperature for the month of June than December. However with only a differnece of 2 degrees. 
 - June also has a leading average temperature than December by 3 degrees. 
+- June also has a higher minimum temperature by a small margin. 
+
+From analyzing the spread of weather for this data, it is safe to say that while December is colder it is still possible to run a business focussed on outdoor activites in Hawaii even in colder months.  
 
 
 ## Summary 
 
-
+[query: count of temps higher than average for months]
 
