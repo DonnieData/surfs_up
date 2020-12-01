@@ -10,10 +10,10 @@ The purspose of this project is to analyze Hawaii weather data  for a stakeholde
 This data ha been collected by a Weather Observing System and stored in a flat database file(.db).
 
 ## Results 
-- Querying June Temperature Observation Data 
+- Querying June Temperature Observation Data <br>
 ![june_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_frame.png)
 
-- Querying December Temperature Observation Data 
+- Querying December Temperature Observation Data <br>
 ![december_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_frame.png)
 
 
