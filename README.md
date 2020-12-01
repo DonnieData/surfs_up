@@ -16,7 +16,7 @@ In order to gain an understanding of hawaiis weather the stakeholder has express
 
 ## Results 
 To access the observation data and analyze it, I have utilized SQLaclhemy ORM, which allows me to query the data by passing python objects as queries. 
-
+The data is then transformed within a python environment and analyzed resulting in the below summary statistics.
 
 - Querying June Temperature Observation Data <br>
 ![june_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_frame.png)
