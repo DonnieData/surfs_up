@@ -18,14 +18,16 @@ In order to gain an understanding of hawaiis weather the stakeholder has express
 To access the observation data and analyze it, I have utilized SQLaclhemy ORM, which allows me to query the data by passing python objects as queries. 
 The data is then transformed within a python environment and analyzed resulting in the below summary statistics.
 
-- Querying June Temperature Observation Data <br>
+ June Temperature Summary Statistics  <br>
 ![june_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_frame.png)
 
-
-
-
-- Querying December Temperature Observation Data <br>
+ December Temperature Summary Statistics  <br>
 ![december_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_frame.png)
+
+### Analysis
+Based on the statisical overview of the data we see that: 
+- there is a higher max temperature for the month of June than December. However with only a differnece of 2 degrees. 
+
 
 
 ## Summary 
