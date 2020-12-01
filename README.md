@@ -15,6 +15,9 @@ To ensure business is sustainable, year-round weather trends needs to be analyze
 In order to gain an understanding of hawaiis weather the stakeholder has expressed explicit interest in weather statistics for the months of June and December. 
 
 ## Results 
+To access the observation data and analyze it, I have utilized SQLaclhemy ORM, which allows me to query the data by passing python objects as queries. 
+
+
 - Querying June Temperature Observation Data <br>
 ![june_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_frame.png)
 
