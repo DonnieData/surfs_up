@@ -6,7 +6,17 @@ Analyzing weather data with Pytohn, SQLite, and Flask.
 - SQLAlchemy ORM 1.3.19(https://docs.sqlalchemy.org/en/13/orm/), Python Database Abstraction Library.
 
 ## Overview
+The purspose of this project is to analyze Hawaii weather data  for a stakeholder interested in investing in a business located in the aformention area. 
+This data ha been collected by a Weather Observing System and stored in a flat database file(.db).
 
 ## Results 
+- Querying June Temperature Observation Data 
+
+- Querying December Temperature Observation Data 
+
+
 
 ## Summary 
+
+
+
