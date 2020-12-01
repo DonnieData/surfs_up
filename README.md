@@ -4,12 +4,15 @@ Analyzing weather data with Pytohn, SQLite, and Flask.
 ## Resources 
 - Python 3.7.6, JupyterLab 2.26, VS Code 1.51.1
 - SQLAlchemy ORM 1.3.19(https://docs.sqlalchemy.org/en/13/orm/), Python Database Abstraction Library.
+- hawaii.sqlite: database file where temperature data is stored.
 
 ## Overview
-The purspose of this project is to analyze Hawaii weather data  for a stakeholder interested in investing in a business located in the aformention area. 
-This data ha been collected by a Weather Observing System and stored in a flat database file(.db).
+The purspose of this project is to analyze weather data  for a stakeholder interested in investing in a surfing business located in Hawaii.
+This data ha been collected by a Weather Observing System and stored in a flat database file(.db/.sqlite).
 
-The stakeholders is interested in openng a surf shop which is greatly dependant on warmer weather. To ensure business is sustainable, year-round weather trends needs to be analyzed. 
+To ensure business is sustainable, year-round weather trends needs to be analyzed. 
+
+In order to gain an understanding of hawaiis weather the stakeholder has expressed explicit interest in weather statistics for the months of June and December. 
 
 ## Results 
 - Querying June Temperature Observation Data <br>
