@@ -26,8 +26,8 @@ The data is then transformed within a python environment and analyzed resulting 
 
 ### Analysis
 Based on the statisical overview of the data we see that: 
-- there is a higher max temperature for the month of June than December. However with only a differnece of 2 degrees. 
-
+- There is a higher max temperature for the month of June than December. However with only a differnece of 2 degrees. 
+- June also has a leading average temperature than December by 3 degrees. 
 
 
 ## Summary 
