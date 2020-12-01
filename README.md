@@ -9,6 +9,8 @@ Analyzing weather data with Pytohn, SQLite, and Flask.
 The purspose of this project is to analyze Hawaii weather data  for a stakeholder interested in investing in a business located in the aformention area. 
 This data ha been collected by a Weather Observing System and stored in a flat database file(.db).
 
+The stakeholders is interested in openng a surf shop which is greatly dependant on warmer weather. To ensure business is sustainable, year-round weather trends needs to be analyzed. 
+
 ## Results 
 - Querying June Temperature Observation Data <br>
 ![june_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_frame.png)
