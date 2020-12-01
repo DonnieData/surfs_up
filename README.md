@@ -21,6 +21,9 @@ The data is then transformed within a python environment and analyzed resulting 
 - Querying June Temperature Observation Data <br>
 ![june_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_frame.png)
 
+
+
+
 - Querying December Temperature Observation Data <br>
 ![december_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_frame.png)
 
