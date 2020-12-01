@@ -11,9 +11,10 @@ This data ha been collected by a Weather Observing System and stored in a flat d
 
 ## Results 
 - Querying June Temperature Observation Data 
+![june_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_frame.png)
 
 - Querying December Temperature Observation Data 
-
+![december_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_frame.png)
 
 
 ## Summary 
