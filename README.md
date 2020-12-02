@@ -1,5 +1,5 @@
 # surfs_up
-Analyzing weather data with Python, SQLite, and Flask.
+Analyzing weather data with Python and Database ORM's.
 
 ## Resources 
 - Python 3.7.6, JupyterLab 2.26, VS Code 1.51.1
