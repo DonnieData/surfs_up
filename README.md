@@ -18,10 +18,10 @@ In order to gain an understanding of Hawaii's weather the stakeholder has expres
 To access the observation data and analyze it, I have utilized SQLAlchemy ORM, which allows me to query the data by passing python objects as queries. 
 The data is then transformed within a python environment and analyzed resulting in the below summary statistics.
 
- June Temperature Summary Statistics  <br>
+ <b>June Temperature Summary Statistics</b>  <br>
 ![june_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_frame.png)
 
- December Temperature Summary Statistics  <br>
+ <b>December Temperature Summary Statistics</b> <br>
 ![december_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_frame.png)
 
 Based on the statistical overview of the data we see that: 
@@ -34,10 +34,10 @@ Based on the statistical overview of the data we see that:
 ## Summary 
 
 
-June Temperature Observations by group<br>
+<b>June Temperature Observations by group</b><br>
 ![june_spread](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_temp_spread.png)
 
-December Temperature Observations by group<br>
+<b>December Temperature Observations by group</b><br>
 ![december spread](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_temp_spread.png)
 
 Through querying and analyzing the spread of weather for this data, it is safe to say that while December is colder it is still possible to run a business focussed on outdoor activities in Hawaii even in colder months.  
