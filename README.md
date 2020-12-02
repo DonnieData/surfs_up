@@ -24,16 +24,15 @@ The data is then transformed within a python environment and analyzed resulting 
  December Temperature Summary Statistics  <br>
 ![december_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_frame.png)
 
-### Analysis
 Based on the statisical overview of the data we see that: 
 - There is a higher max temperature for the month of June than December. However with only a differnece of 2 degrees. 
-- June also has a leading average temperature than December by 3 degrees. 
-- June also has a higher minimum temperature by a small margin. 
+- June also has a leading average temperature by less than 3 degrees.  
+- June also has a higher minimum temperature by 8 degrees. 
 
-From analyzing the spread of weather for this data, it is safe to say that while December is colder it is still possible to run a business focussed on outdoor activites in Hawaii even in colder months.  
 
 
 ## Summary 
+From analyzing the spread of weather for this data, it is safe to say that while December is colder it is still possible to run a business focussed on outdoor activites in Hawaii even in colder months.  
 
 [query: count of temps higher than average for months]
 
