@@ -1,5 +1,5 @@
 # surfs_up
-Analyzing weather data with Pytohn, SQLite, and Flask.
+Analyzing weather data with Python, SQLite, and Flask.
 
 ## Resources 
 - Python 3.7.6, JupyterLab 2.26, VS Code 1.51.1
@@ -7,15 +7,15 @@ Analyzing weather data with Pytohn, SQLite, and Flask.
 - hawaii.sqlite: database file where temperature data is stored.
 
 ## Overview
-The purspose of this project is to analyze weather data  for a stakeholder interested in investing in a surfing business located in Hawaii.
-This data ha been collected by a Weather Observing System and stored in a flat database file(.db/.sqlite).
+The purpose of this project is to analyze weather data  for a stakeholder interested in investing in a surfing business located in Hawaii.
+This data has been collected by a Weather Observing System and stored in a flat database file(.db/.sqlite).
 
-To ensure business is sustainable, year-round weather trends needs to be analyzed. 
+To ensure business is sustainable, year-round weather trends need to be analyzed. 
 
-In order to gain an understanding of hawaiis weather the stakeholder has expressed explicit interest in weather statistics for the months of June and December throughout recent years. 
+In order to gain an understanding of Hawaii's weather the stakeholder has expressed explicit interest in weather statistics for the months of June and December throughout recent years. 
 
 ## Results 
-To access the observation data and analyze it, I have utilized SQLaclhemy ORM, which allows me to query the data by passing python objects as queries. 
+To access the observation data and analyze it, I have utilized SQLAlchemy ORM, which allows me to query the data by passing python objects as queries. 
 The data is then transformed within a python environment and analyzed resulting in the below summary statistics.
 
  June Temperature Summary Statistics  <br>
@@ -24,8 +24,8 @@ The data is then transformed within a python environment and analyzed resulting 
  December Temperature Summary Statistics  <br>
 ![december_temp](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_frame.png)
 
-Based on the statisical overview of the data we see that: 
-- There is a higher max temperature for the month of June than December. However with only a differnece of 2 degrees. 
+Based on the statistical overview of the data we see that: 
+- There is a higher max temperature for the month of June than December. However with only a difference of 2 degrees. 
 - June also has a leading average temperature by less than 3 degrees.  
 - June also has a higher minimum temperature by 8 degrees. 
 
@@ -40,5 +40,4 @@ June Temperature Observations by group<br>
 December Temperature Observations by group<br>
 ![december spread](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_temp_spread.png)
 
-Thorugh querying and analyzing the spread of weather for this data, it is safe to say that while December is colder it is still possible to run a business focussed on outdoor activites in Hawaii even in colder months.  
-
+Through querying and analyzing the spread of weather for this data, it is safe to say that while December is colder it is still possible to run a business focussed on outdoor activities in Hawaii even in colder months.  
