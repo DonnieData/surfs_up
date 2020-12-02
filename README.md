@@ -32,7 +32,13 @@ Based on the statisical overview of the data we see that:
 
 
 ## Summary 
-From analyzing the spread of weather for this data, it is safe to say that while December is colder it is still possible to run a business focussed on outdoor activites in Hawaii even in colder months.  
 
-[query: count of temps higher than average for months]
+
+June Temperature Observations by group<br>
+![june_spread](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/june_temp_spread.png)
+
+December Temperature Observations by group<br>
+![december spread](https://github.com/DonnieData/surfs_up/blob/main/Reosurce/december_temp_spread.png)
+
+Thorugh querying and analyzing the spread of weather for this data, it is safe to say that while December is colder it is still possible to run a business focussed on outdoor activites in Hawaii even in colder months.  
 
